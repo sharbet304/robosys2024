@@ -5,4 +5,7 @@ args = sys.argv
 
 print(args[1])
 print(args[2])
+if args[1] == "haru":
+    print("こんにちは")
+
 #変更テスト

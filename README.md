@@ -11,7 +11,7 @@
 
 初心者と入力すると、用意すべきものを表示してくれて、さらに季節を自動で読み取って、おすすめの育てやすい花を紹介してくれます！
 
-# リポジトリのクローン方法
+# インストール方法
 
 以下の手順を行って下さい。
 
@@ -32,24 +32,12 @@ haru,春,spring あるいは aka,赤,redなど、ローマ字表記、日本語�
 ```
 ./ohana haru red
 ./ohana 夏 青
-
 ./ohana fall ki
+./ohana 初心者
 ```
-
-```
-./ohana 夏 青
-```
-
-```
-./ohana fall ki
-```
-- kiとは黄色の意味
-
-```
-./ohana 初心者      
-```
-- shosinsha,beginnerでも可能
-- 実行例は11月に実行
+ - kiとは黄色の意味
+ - 初心者はshosinsha,beginnerでも可能
+ - 実行例は11月に実行
 
 - 実行結果
 
@@ -98,7 +86,7 @@ haru,春,spring あるいは aka,赤,redなど、ローマ字表記、日本語�
 - このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
 
 - このパッケージのohana以外のコードは, 下記のスライド（CC-BY-SA 4.0 by ryuichi ueda）のものを, 本人の許可を得て自身の著作としたものです.
-
+  - ()
 
 © 2024 Daiki Ogawa
 
@@ -126,6 +114,6 @@ haru,春,spring あるいは aka,赤,redなど、ローマ字表記、日本語�
 
 [Pythonでは範囲条件を「a <= value < b」と書ける] (https://qiita.com/tag1216/items/de47009599cf592a222d)
 
-tast
+[[5分でマスター]初心者はまずREADMEを書け[テンプレート付き](https://qiita.com/Canard_engineer_c_cpp/items/81ce4e53881138dbf37f)]
 
 

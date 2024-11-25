@@ -5,14 +5,66 @@ import sys
 
 args = sys.argv
 
-print(args[1])
-print(args[2])
 list_haru_aka = ["ヘビイチゴ","アリウム","ルピナス","スイートピー","ムラサキカタバミ","セイヨウノコギリソウ","ノアザミ","アネモネ","ナガミヒゲナシ"]
-if args[1] == "春" and args[2] == "赤":
-    print(list_haru_aka[0:])
+list_haru_ao = ["","","","","","","","",""]
+list_haru_siro = ["","","","","","","","",]
+list_haru_ki = ["","","","","","","","","",]
+
+list_natu_aka = ["","","","","","","","",""]
+list_natu_ao = ["","","","","","","","",]
+list_natu_siro = ["","","","","","","","","",]
+list_natu_ki = ["","","","","","","","",""]
+
+list_aki_aka = ["","","","","","","","",""]
+list_aki_ao = ["","","","","","","","",]
+list_aki_siro = ["","","","","","","","","",]
+list_aki_ki = ["","","","","","","","",""]
+
+list_fuyu_aka = ["","","","","","","","",""]
+list_fuyu_ao = ["","","","","","","","",]
+list_fuyu_siro = ["","","","","","","","","",]
+list_fuyu_ki = ["","","","","","","","",""]
 
 
+if args[1] == "春":
+    if args[2] == "赤":
+        print(list_haru_aka[0:])
+    elif args[2] == "青":
+        print(list_haru_ao[0:])
+    elif args[2] == "白":
+        print(list_haru_siro[0:])
+    elif args[2] == "黄":
+        print(list_haru_ki[0:])
 
+elif args[1] == "夏":
+    if args[2] == "赤":
+        print(list_haru_aka[0:])
+    elif args[2] == "青":
+        print(list_haru_ao[0:])
+    elif args[2] == "白":
+        print(list_haru_siro[0:])
+    elif args[2] == "黄":
+        print(list_haru_ki[0:])
+
+elif args[1] == "秋":
+    if args[2] == "赤":
+        print(list_haru_aka[0:])
+    elif args[2] == "青":
+        print(list_haru_ao[0:])
+    elif args[2] == "白":
+        print(list_haru_siro[0:])
+    elif args[2] == "黄":
+        print(list_haru_ki[0:])
+
+elif args[1] == "冬":
+    if args[2] == "赤":
+        print(list_haru_aka[0:])
+    elif args[2] == "青":
+        print(list_haru_ao[0:])
+    elif args[2] == "白":
+        print(list_haru_siro[0:])
+    elif args[2] == "黄":
+        print(list_haru_ki[0:])
 
 
 #変更テスト

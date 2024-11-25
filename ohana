@@ -34,16 +34,16 @@ list_fuyu_ki = ["バンジー","ビオラ"]
 if len(args) == 1:
     print("なんか入れて")
 
-elif args[1] in ("春", "haru"):
+elif args[1] in ("春", "haru","spring"):
     if len(args) == 3:
 
-        if args[2] in ("赤", "red"):
+        if args[2] in ("赤", "red","aka"):
             print(list_haru_aka[0:])
-        elif args[2] in ("青", "blue"):
+        elif args[2] in ("青", "blue","ao"):
             print(list_haru_ao[0:])
-        elif args[2] in ("白", "white"):
+        elif args[2] in ("白", "white","siro"):
             print(list_haru_siro[0:])
-        elif args[2] in ("黄", "yellow"):
+        elif args[2] in ("黄", "yellow","ki"):
             print(list_haru_ki[0:])
         else:
             print("形式が違うよ！")
@@ -62,17 +62,17 @@ elif args[1] in ("春", "haru"):
     else:
         print("形式が違うよ！")
 
-elif args[1] in ("夏", "natu"):
+elif args[1] in ("夏", "natu","summer"):
 
     if len(args) == 3:
 
-        if args[2] in ("赤", "red"):
+        if args[2] in ("赤", "red","aka"):
             print(list_natu_aka[0:])
-        elif args[2] in ("青", "blue"):
+        elif args[2] in ("青", "blue","ao"):
             print(list_natu_ao[0:])
-        elif args[2] in ("白", "white"):
+        elif args[2] in ("白", "white","siro"):
             print(list_natu_siro[0:])
-        elif args[2] in ("黄", "yellow"):
+        elif args[2] in ("黄", "yellow","ki"):
             print(list_natu_ki[0:])
         else:
             print("形式が違うよ！")
@@ -91,17 +91,17 @@ elif args[1] in ("夏", "natu"):
     else:
         print("形式が違うよ！")
 
-elif args[1] in ("秋", "aki"):
+elif args[1] in ("秋", "aki","fall","autumn"):
 
     if len(args) == 3:
 
-        if args[2] in ("赤", "red"):
+        if args[2] in ("赤", "red","aka"):
             print(list_aki_aka[0:])
-        elif args[2] in ("青", "blue"):
+        elif args[2] in ("青", "blue","ao"):
             print(list_aki_ao[0:])
-        elif args[2] in ("白", "white"):
+        elif args[2] in ("白", "white","siro"):
             print(list_aki_siro[0:])
-        elif args[2] in ("黄", "yellow"):
+        elif args[2] in ("黄", "yellow","ki"):
             print(list_aki_ki[0:])
         else:
             print("形式が違うよ！")
@@ -120,17 +120,17 @@ elif args[1] in ("秋", "aki"):
     else:
         print("形式が違うよ！")
 
-elif args[1] in ("冬", "fuyu"):
+elif args[1] in ("冬", "fuyu","winter"):
 
     if len(args) == 3:
 
-        if args[2] in ("赤", "red"):
+        if args[2] in ("赤", "red","aka"):
             print(list_fuyu_aka[0:])
-        elif args[2] in ("青", "blue"):
+        elif args[2] in ("青", "blue","ao"):
             print(list_fuyu_ao[0:])
-        elif args[2] in ("白", "white"):
+        elif args[2] in ("白", "white","siro"):
             print(list_fuyu_siro[0:])
-        elif args[2] in ("黄", "yellow"):
+        elif args[2] in ("黄", "yellow","ki"):
             print(list_fuyu_ki[0:])
         else:
             print("形式が違うよ！")

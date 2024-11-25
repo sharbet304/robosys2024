@@ -37,13 +37,13 @@ if len(args) == 1:
 elif args[1] in ("春", "haru"):
     if len(args) == 3:
 
-        if args[2] == "赤":
+        if args[2] in ("赤", "red"):
             print(list_haru_aka[0:])
-        elif args[2] == "青":
+        elif args[2] in ("青", "blue"):
             print(list_haru_ao[0:])
-        elif args[2] == "白":
+        elif args[2] in ("白", "white"):
             print(list_haru_siro[0:])
-        elif args[2] == "黄":
+        elif args[2] in ("黄", "yellow"):
             print(list_haru_ki[0:])
         else:
             print("形式が違うよ！")
@@ -62,17 +62,17 @@ elif args[1] in ("春", "haru"):
     else:
         print("形式が違うよ！")
 
-elif args[1] == "夏":
+elif args[1] in ("夏", "natu"):
 
     if len(args) == 3:
 
-        if args[2] == "赤":
+        if args[2] in ("赤", "red"):
             print(list_natu_aka[0:])
-        elif args[2] == "青":
+        elif args[2] in ("青", "blue"):
             print(list_natu_ao[0:])
-        elif args[2] == "白":
+        elif args[2] in ("白", "white"):
             print(list_natu_siro[0:])
-        elif args[2] == "黄":
+        elif args[2] in ("黄", "yellow"):
             print(list_natu_ki[0:])
         else:
             print("形式が違うよ！")
@@ -91,17 +91,17 @@ elif args[1] == "夏":
     else:
         print("形式が違うよ！")
 
-elif args[1] == "秋":
+elif args[1] in ("秋", "aki"):
 
     if len(args) == 3:
 
-        if args[2] == "赤":
+        if args[2] in ("赤", "red"):
             print(list_aki_aka[0:])
-        elif args[2] == "青":
+        elif args[2] in ("青", "blue"):
             print(list_aki_ao[0:])
-        elif args[2] == "白":
+        elif args[2] in ("白", "white"):
             print(list_aki_siro[0:])
-        elif args[2] == "黄":
+        elif args[2] in ("黄", "yellow"):
             print(list_aki_ki[0:])
         else:
             print("形式が違うよ！")
@@ -120,17 +120,17 @@ elif args[1] == "秋":
     else:
         print("形式が違うよ！")
 
-elif args[1] == "冬":
+elif args[1] in ("冬", "fuyu"):
 
     if len(args) == 3:
 
-        if args[2] == "赤":
+        if args[2] in ("赤", "red"):
             print(list_fuyu_aka[0:])
-        elif args[2] == "青":
+        elif args[2] in ("青", "blue"):
             print(list_fuyu_ao[0:])
-        elif args[2] == "白":
+        elif args[2] in ("白", "white"):
             print(list_fuyu_siro[0:])
-        elif args[2] == "黄":
+        elif args[2] in ("黄", "yellow"):
             print(list_fuyu_ki[0:])
         else:
             print("形式が違うよ！")

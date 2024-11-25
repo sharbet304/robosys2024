@@ -12,6 +12,7 @@
 
 # リポジトリのクローン方法
 
+'git clone https://github.com/sharbet304/robosys2024'
 
 
 # 使い方
@@ -28,7 +29,7 @@
 
 # 参照
 
-
+ in ("黄", "yellow"):
 
 #
 

@@ -1,17 +1,15 @@
 #!/usr/bin/python3
+#SPDX-FileCopyrightText: 2024 Daiki Ogawa
+#SPDX-License-Indentifier: BSD-3-Clause
 import sys
 
 args = sys.argv
 
 print(args[1])
 print(args[2])
-total = 0
-a = 1
+list_haru_aka = ["ヘビイチゴ","アリウム","ルピナス","スイートピー","ムラサキカタバミ","セイヨウノコギリソウ","ノアザミ","アネモネ","ナガミヒゲナシ"]
 if args[1] == "春" and args[2] == "赤":
-    while  total <= 50:
-        total = total + a
-        print("こんにちは")
-
+    print(list_haru_aka[0:])
 
 
 

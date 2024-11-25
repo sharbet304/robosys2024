@@ -25,9 +25,10 @@ list_fuyu_ao = ["","","","","","","","",]
 list_fuyu_siro = ["","","","","","","","","",]
 list_fuyu_ki = ["","","","","","","","",""]
 
+if len(args) == 1:
+    print("なんか入れて")
 
-if args[1] == "春":
-    
+elif args[1] == "春":
     if len(args) == 3:
 
         if args[2] == "赤":
@@ -38,54 +39,90 @@ if args[1] == "春":
             print(list_haru_siro[0:])
         elif args[2] == "黄":
             print(list_haru_ki[0:])
-    
+
     elif len(args) == 2:
 
         print("赤")
         print(list_haru_aka[0:])
-        
         print("青")
         print(list_haru_ao[0:])
-        
         print("白")
         print(list_haru_siro[0:])
-        
         print("黄")
         print(list_haru_ki[0:])
-        
-
-
-
 
 elif args[1] == "夏":
-    if args[2] == "赤":
+
+    if len(args) == 3:
+
+        if args[2] == "赤":
+            print(list_haru_aka[0:])
+        elif args[2] == "青":
+            print(list_haru_ao[0:])
+        elif args[2] == "白":
+            print(list_haru_siro[0:])
+        elif args[2] == "黄":
+            print(list_haru_ki[0:])
+
+    elif len(args) == 2:
+
+        print("赤")
         print(list_haru_aka[0:])
-    elif args[2] == "青":
+        print("青")
         print(list_haru_ao[0:])
-    elif args[2] == "白":
+        print("白")
         print(list_haru_siro[0:])
-    elif args[2] == "黄":
+        print("黄")
         print(list_haru_ki[0:])
 
 elif args[1] == "秋":
-    if args[2] == "赤":
+
+    if len(args) == 3:
+
+        if args[2] == "赤":
+            print(list_haru_aka[0:])
+        elif args[2] == "青":
+            print(list_haru_ao[0:])
+        elif args[2] == "白":
+            print(list_haru_siro[0:])
+        elif args[2] == "黄":
+            print(list_haru_ki[0:])
+
+    elif len(args) == 2:
+
+        print("赤")
         print(list_haru_aka[0:])
-    elif args[2] == "青":
+        print("青")
         print(list_haru_ao[0:])
-    elif args[2] == "白":
+        print("白")
         print(list_haru_siro[0:])
-    elif args[2] == "黄":
+        print("黄")
         print(list_haru_ki[0:])
 
 elif args[1] == "冬":
-    if args[2] == "赤":
+
+    if len(args) == 3:
+
+        if args[2] == "赤":
+            print(list_haru_aka[0:])
+        elif args[2] == "青":
+            print(list_haru_ao[0:])
+        elif args[2] == "白":
+            print(list_haru_siro[0:])
+        elif args[2] == "黄":
+            print(list_haru_ki[0:])
+
+    elif len(args) == 2:
+
+        print("赤")
         print(list_haru_aka[0:])
-    elif args[2] == "青":
+        print("青")
         print(list_haru_ao[0:])
-    elif args[2] == "白":
+        print("白")
         print(list_haru_siro[0:])
-    elif args[2] == "黄":
+        print("黄")
         print(list_haru_ki[0:])
 
-
+else:
+    print("test")
 #変更テスト

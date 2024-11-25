@@ -16,7 +16,17 @@
 git clone https://github.com/sharbet304/robosys2024
 ```
 
+cdコマンドでrobosys2024ディレクトリに移動してください
+
+```
+cd robosys2024
+```
+
 # 使い方
+
+```
+./ohana haru aka
+```
 
 
 

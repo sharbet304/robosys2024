@@ -1,12 +1,8 @@
 #!/usr/bin/python3
 import sys
 
-ans = 0#もともと0.0だったのを0に変更
-for arg in sys.argv[1:]:
-    try:
-        ans += int(arg)#intは文字列を整数に（失敗すると例外発生）
-    except ValueError:
-        ans += float(arg)
+args = sys.argv
 
-print(ans)
+print(args[1])
+print(args[2])
 #変更テスト

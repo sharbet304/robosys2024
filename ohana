@@ -2,6 +2,7 @@
 #SPDX-FileCopyrightText: 2024 Daiki Ogawa
 #SPDX-License-Indentifier: BSD-3-Clause
 import sys
+import datetime
 
 args = sys.argv
 
@@ -128,7 +129,15 @@ elif args[1] == "冬":
         print(list_fuyu_ki[0:])
 
 elif args[1] == "初心者":
-    print("test")
+    print("まずは道具をそろえよう！")
+    print("プランターと土があればとりあえずは大丈夫！")
+    print("余裕があれば液肥も用意しよう！")
+    print("まずは一年草の育てやすい花から始めてみよう！")
+    dt_now = datetime.datetime.now()
+    print(dt_now.month)
+    if 9 <= dt_now.month <= 11:
+        print("test")
+        print("")
 
 
 else:

@@ -149,7 +149,7 @@ elif args[1] in ("冬", "fuyu","winter"):
     else:
         print("形式が違うよ！")
 
-elif args[1] == "初心者":
+elif args[1] in ("初心者", "shosinsha", "beginner"):
     print("まずは道具をそろえよう！")
     print("プランターと土があればとりあえずは大丈夫！")
     print("余裕があれば液肥も用意しよう！")

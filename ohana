@@ -6,7 +6,7 @@ import sys
 args = sys.argv
 
 list_haru_aka = ["ヘビイチゴ","アリウム","ルピナス","スイートピー","ムラサキカタバミ","セイヨウノコギリソウ","ノアザミ","アネモネ","ナガミヒゲナシ"]
-list_haru_ao = ["","","","","","","","",""]
+list_haru_ao = ["オオイヌノフグリ","クロッカス","ミヤコスワレ","ヤグルマギク","デルフィニウム","ネモフィラ","クレチマス","ムスカリ"]
 list_haru_siro = ["","","","","","","","",]
 list_haru_ki = ["","","","","","","","","",]
 
@@ -27,14 +27,35 @@ list_fuyu_ki = ["","","","","","","","",""]
 
 
 if args[1] == "春":
-    if args[2] == "赤":
+    
+    if len(args) == 3:
+
+        if args[2] == "赤":
+            print(list_haru_aka[0:])
+        elif args[2] == "青":
+            print(list_haru_ao[0:])
+        elif args[2] == "白":
+            print(list_haru_siro[0:])
+        elif args[2] == "黄":
+            print(list_haru_ki[0:])
+    
+    elif len(args) == 2:
+
+        print("赤")
         print(list_haru_aka[0:])
-    elif args[2] == "青":
+        
+        print("青")
         print(list_haru_ao[0:])
-    elif args[2] == "白":
+        
+        print("白")
         print(list_haru_siro[0:])
-    elif args[2] == "黄":
+        
+        print("黄")
         print(list_haru_ki[0:])
+        
+
+
+
 
 elif args[1] == "夏":
     if args[2] == "赤":

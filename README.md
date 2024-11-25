@@ -35,6 +35,8 @@ cd robosys2024
 
 - Python
 
+  - テスト済み:3.7~3.10
+
 ### テスト環境
 
 - ubuntu20.04 on windows 
@@ -44,13 +46,15 @@ cd robosys2024
 - このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
 
 - このパッケージのohana以外のコードは, 下記のスライド（CC-BY-SA 4.0 by ryuichi ueda）のものを, 本人の許可を得て自身の著作としたものです.
-- ryuichiueda/my_slides robosys_2024
 
- © 2024 Daiki Ogawa
+
+© 2024 Daiki Ogawa
 
 
 # 参照
 
-nannka
+「散歩で見かける草花・雑草図鑑」
+( https://docs.github.com/ja/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#quoting-code )
+[test]
 
 

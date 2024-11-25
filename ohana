@@ -5,10 +5,13 @@ args = sys.argv
 
 print(args[1])
 print(args[2])
-
+total = 0
+a = 1
 if args[1] == "春" and args[2] == "赤":
-    
-    print("こんにちは")
+    while  total <= 50:
+        total = total + a
+        print("こんにちは")
+
 
 
 

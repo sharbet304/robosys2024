@@ -34,7 +34,7 @@ list_fuyu_ki = ["バンジー","ビオラ"]
 if len(args) == 1:
     print("なんか入れて")
 
-elif args[1] == "春":
+elif args[1] in ("春", "haru"):
     if len(args) == 3:
 
         if args[2] == "赤":

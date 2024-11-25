@@ -45,6 +45,8 @@ elif args[1] == "春":
             print(list_haru_siro[0:])
         elif args[2] == "黄":
             print(list_haru_ki[0:])
+        else:
+            print("形式が違うよ！")
 
     elif len(args) == 2:
 
@@ -56,6 +58,9 @@ elif args[1] == "春":
         print(list_haru_siro[0:])
         print("黄")
         print(list_haru_ki[0:])
+
+    else:
+        print("形式が違うよ！")
 
 elif args[1] == "夏":
 
@@ -69,6 +74,8 @@ elif args[1] == "夏":
             print(list_natu_siro[0:])
         elif args[2] == "黄":
             print(list_natu_ki[0:])
+        else:
+            print("形式が違うよ！")
 
     elif len(args) == 2:
 
@@ -80,6 +87,9 @@ elif args[1] == "夏":
         print(list_natu_siro[0:])
         print("黄")
         print(list_natu_ki[0:])
+
+    else:
+        print("形式が違うよ！")
 
 elif args[1] == "秋":
 
@@ -93,6 +103,8 @@ elif args[1] == "秋":
             print(list_aki_siro[0:])
         elif args[2] == "黄":
             print(list_aki_ki[0:])
+        else:
+            print("形式が違うよ！")
 
     elif len(args) == 2:
 
@@ -104,6 +116,9 @@ elif args[1] == "秋":
         print(list_aki_siro[0:])
         print("黄")
         print(list_aki_ki[0:])
+
+    else:
+        print("形式が違うよ！")
 
 elif args[1] == "冬":
 
@@ -117,6 +132,8 @@ elif args[1] == "冬":
             print(list_fuyu_siro[0:])
         elif args[2] == "黄":
             print(list_fuyu_ki[0:])
+        else:
+            print("形式が違うよ！")
 
     elif len(args) == 2:
 
@@ -128,6 +145,9 @@ elif args[1] == "冬":
         print(list_fuyu_siro[0:])
         print("黄")
         print(list_fuyu_ki[0:])
+
+    else:
+        print("形式が違うよ！")
 
 elif args[1] == "初心者":
     print("まずは道具をそろえよう！")

@@ -7,23 +7,23 @@ args = sys.argv
 
 list_haru_aka = ["ヘビイチゴ","アリウム","ルピナス","スイートピー","ムラサキカタバミ","セイヨウノコギリソウ","ノアザミ","アネモネ","ナガミヒゲナシ"]
 list_haru_ao = ["オオイヌノフグリ","クロッカス","ミヤコスワレ","ヤグルマギク","デルフィニウム","ネモフィラ","クレチマス","ムスカリ"]
-list_haru_siro = ["","","","","","","","",]
-list_haru_ki = ["","","","","","","","","",]
+list_haru_siro = ["マーガレット","","","","","","","",]
+list_haru_ki = ["タンポポ","","","","","","","","",]
 
-list_natu_aka = ["","","","","","","","",""]
-list_natu_ao = ["","","","","","","","",]
-list_natu_siro = ["","","","","","","","","",]
-list_natu_ki = ["","","","","","","","",""]
+list_natu_aka = ["ランタナ","日々草","ハイビスカス","","","","","",""]
+list_natu_ao = ["朝顔","","","","","","","",]
+list_natu_siro = ["日々草","","","","","","","","",]
+list_natu_ki = ["ひまわり","ランタナ","","","","","","",""]
 
-list_aki_aka = ["","","","","","","","",""]
+list_aki_aka = ["ダリア","コスモス","","","","","","",""]
 list_aki_ao = ["","","","","","","","",]
 list_aki_siro = ["","","","","","","","","",]
-list_aki_ki = ["","","","","","","","",""]
+list_aki_ki = ["マリーゴールド","","","","","","","",""]
 
-list_fuyu_aka = ["","","","","","","","",""]
-list_fuyu_ao = ["","","","","","","","",]
-list_fuyu_siro = ["","","","","","","","","",]
-list_fuyu_ki = ["","","","","","","","",""]
+list_fuyu_aka = ["シクラメン","クリスマスローズ","","","","","","",""]
+list_fuyu_ao = ["バンジー","ビオラ","シクラメン","","","","","",]
+list_fuyu_siro = ["バンジー","ビオラ","","","","","","","",]
+list_fuyu_ki = ["バンジー","ビオラ","","","","","","",""]
 
 if len(args) == 1:
     print("なんか入れて")
@@ -56,73 +56,73 @@ elif args[1] == "夏":
     if len(args) == 3:
 
         if args[2] == "赤":
-            print(list_haru_aka[0:])
+            print(list_natu_aka[0:])
         elif args[2] == "青":
-            print(list_haru_ao[0:])
+            print(list_natu_ao[0:])
         elif args[2] == "白":
-            print(list_haru_siro[0:])
+            print(list_natu_siro[0:])
         elif args[2] == "黄":
-            print(list_haru_ki[0:])
+            print(list_natu_ki[0:])
 
     elif len(args) == 2:
 
         print("赤")
-        print(list_haru_aka[0:])
+        print(list_natu_aka[0:])
         print("青")
-        print(list_haru_ao[0:])
+        print(list_natu_ao[0:])
         print("白")
-        print(list_haru_siro[0:])
+        print(list_natu_siro[0:])
         print("黄")
-        print(list_haru_ki[0:])
+        print(list_natu_ki[0:])
 
 elif args[1] == "秋":
 
     if len(args) == 3:
 
         if args[2] == "赤":
-            print(list_haru_aka[0:])
+            print(list_aki_aka[0:])
         elif args[2] == "青":
-            print(list_haru_ao[0:])
+            print(list_aki_ao[0:])
         elif args[2] == "白":
-            print(list_haru_siro[0:])
+            print(list_aki_siro[0:])
         elif args[2] == "黄":
-            print(list_haru_ki[0:])
+            print(list_aki_ki[0:])
 
     elif len(args) == 2:
 
         print("赤")
-        print(list_haru_aka[0:])
+        print(list_aki_aka[0:])
         print("青")
-        print(list_haru_ao[0:])
+        print(list_aki_ao[0:])
         print("白")
-        print(list_haru_siro[0:])
+        print(list_aki_siro[0:])
         print("黄")
-        print(list_haru_ki[0:])
+        print(list_aki_ki[0:])
 
 elif args[1] == "冬":
 
     if len(args) == 3:
 
         if args[2] == "赤":
-            print(list_haru_aka[0:])
+            print(list_fuyu_aka[0:])
         elif args[2] == "青":
-            print(list_haru_ao[0:])
+            print(list_fuyu_ao[0:])
         elif args[2] == "白":
-            print(list_haru_siro[0:])
+            print(list_fuyu_siro[0:])
         elif args[2] == "黄":
-            print(list_haru_ki[0:])
+            print(list_fuyu_ki[0:])
 
     elif len(args) == 2:
 
         print("赤")
-        print(list_haru_aka[0:])
+        print(list_fuyu_aka[0:])
         print("青")
-        print(list_haru_ao[0:])
+        print(list_fuyu_ao[0:])
         print("白")
-        print(list_haru_siro[0:])
+        print(list_fuyu_siro[0:])
         print("黄")
-        print(list_haru_ki[0:])
+        print(list_fuyu_ki[0:])
 
 else:
-    print("test")
-#変更テスト
+    print("形式が違うよ！")
+#変更テスト 

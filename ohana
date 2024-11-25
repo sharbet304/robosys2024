@@ -5,7 +5,13 @@ args = sys.argv
 
 print(args[1])
 print(args[2])
-if args[1] == "haru":
+
+if args[1] == "春" and args[2] == "赤":
+    
     print("こんにちは")
+
+
+
+
 
 #変更テスト

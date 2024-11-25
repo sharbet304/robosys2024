@@ -5,8 +5,7 @@
 
 # ohanaコマンドの概要
 
-季節に合った花を教えてくれるプログラムです。
-
+季節に合った花を教えてくれるプログラムです。 
 季節と色を入力することで花の名前を教えてくれます。
 
 # リポジトリのクローン方法
@@ -60,34 +59,20 @@ cd robosys2024
 「Python入門」
 
 
-基本的な書き方とフォーマットの構文
+[基本的な書き方とフォーマットの構文]( https://docs.github.com/ja/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#quoting-code )
 
-( https://docs.github.com/ja/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#quoting-code )
+[コードブロックの作成と強調表示](https://docs.github.com/ja/get-started/writing-on-github/working-with-advanced-formatting/creating-and-highlighting-code-blocks)
 
-コードブロックの作成と強調表示
+[Pythonの配列の基礎をご紹介！](https://techplay.jp/column/462)
 
-(https://docs.github.com/ja/get-started/writing-on-github/working-with-advanced-formatting/creating-and-highlighting-code-blocks)
+[Pythonでコマンドライン引数を受け取る](https://qiita.com/taashi/items/07bf75201a074e208ae5)
 
-Pythonの配列の基礎をご紹介！
+[Python 文字リスト（配列）の操作](https://qiita.com/HajimeKawahara/items/02c288667f0a893e8761)
 
-(https://techplay.jp/column/462)
+[Pythonで現在時刻・日付・日時を取得](https://note.nkmk.me/python-datetime-now-today/)
 
-Pythonでコマンドライン引数を受け取る
+[Pythonでは範囲条件を「a <= value < b」と書ける] (https://qiita.com/tag1216/items/de47009599cf592a222d)
 
-(https://qiita.com/taashi/items/07bf75201a074e208ae5)
-
-Python 文字リスト（配列）の操作
-
-(https://qiita.com/HajimeKawahara/items/02c288667f0a893e8761)
-
-Pythonで現在時刻・日付・日時を取得
-
-(https://note.nkmk.me/python-datetime-now-today/)
-
-Pythonでは範囲条件を「a <= value < b」と書ける
-
-(https://qiita.com/tag1216/items/de47009599cf592a222d)
-
-[ test ]
+tast
 
 

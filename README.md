@@ -54,7 +54,40 @@ cd robosys2024
 # 参照
 
 「散歩で見かける草花・雑草図鑑」
+
+「新しいLINUXの教科書」
+
+「Python入門」
+
+
+基本的な書き方とフォーマットの構文
+
 ( https://docs.github.com/ja/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#quoting-code )
-[test]
+
+コードブロックの作成と強調表示
+
+(https://docs.github.com/ja/get-started/writing-on-github/working-with-advanced-formatting/creating-and-highlighting-code-blocks)
+
+Pythonの配列の基礎をご紹介！
+
+(https://techplay.jp/column/462)
+
+Pythonでコマンドライン引数を受け取る
+
+(https://qiita.com/taashi/items/07bf75201a074e208ae5)
+
+Python 文字リスト（配列）の操作
+
+(https://qiita.com/HajimeKawahara/items/02c288667f0a893e8761)
+
+Pythonで現在時刻・日付・日時を取得
+
+(https://note.nkmk.me/python-datetime-now-today/)
+
+Pythonでは範囲条件を「a <= value < b」と書ける
+
+(https://qiita.com/tag1216/items/de47009599cf592a222d)
+
+[ test ]
 
 

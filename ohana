@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-#SPDX-FileCopyrightText: 2024 Daiki Ogawa
+#SPDX-FileCopyrightText: 2024 Daiki Ogawa daguixiaochuan682@gmail.com
 #SPDX-License-Indentifier: BSD-3-Clause
 
 import sys
@@ -154,20 +154,20 @@ elif args[1] in ("初心者", "shosinsha", "beginner"):
     print("プランターと土があればとりあえずは大丈夫！")
     print("余裕があれば液肥も用意しよう！")
     print("まずは安くて育てやすい花から始めてみよう！")
-    dt_now = datetime.datetime.now()
-    print("今は",dt_now.month,"月だね")
-    if 9 <= dt_now.month <= 11:
+    tuki = datetime.datetime.now()
+    print("今は",tuki.month,"月だね")
+    if 9 <= tuki.month <= 11:
         print("秋ならマリーゴールドとかはどうかな？")
         print("100円台で買えるとこもあるんじゃないかな？")
-    elif 3 <= dt_now.month <= 6:
+    elif 3 <= tuki.month <= 6:
         print("春ならデルフィニウムやマーガレットはどうだろう？")
         print("個人的にはデルフィニウムがすごく好きかな！")
         print("比較的高めかもだけど、500円くらいだろうし")
-    elif 7 <= dt_now.month <= 8:
+    elif 7 <= tuki.month <= 8:
         print("夏なら朝顔が定番だよね")
         print("日日草も簡単だし、秋くらいまで咲いてくれるよ！")
         print("値段も100円台だろうしね")
-    elif 12 <= dt_now.month <= 2:
+    elif 12 <= tuki.month <= 2:
         print("冬はちょっと咲く花は少な目かなぁ")
         print("シクラメンやバンジーなんかがいいんじゃないかな？")
         print("バンジーは結構安めだよ！")

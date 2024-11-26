@@ -7,9 +7,8 @@ import datetime
 
 hana2 = "test2"
 
-def kisetu(line):
+def kisetu(a):
 
-    line = line.strip()
 
     HAK = ["ヘビイチゴ","アリウム","ルピナス","スイートピー","ムラサキカタバミ","デージー","ノアザミ","アネモネ","ナガミヒゲナシ"]
     HAO = ["オオイヌノフグリ","クロッカス","ミヤコスワレ","ヤグルマギク","デルフィニウム","ネモフィラ","クレチマス","ムスカリ"]
@@ -68,49 +67,25 @@ def kisetu(line):
     else:
         return "形式が違うよ"
         
-def iro(line):
-    line = line.strip()
+def iro(b):
 
+    global hana1
+    global hana2
+    global hana3
+    global hana4
 
-
-
-
-
-
-    if line in ("赤", "aka", "red"):
-        result = hana1
-        return 
+    if line in ("赤", "aka", "red"):        
+        return hana1
+    if line in ("青", "ao", "blue"):
+        return hana2
 
 for line in sys.stdin:
-    result = kisetu(line.strip())
+
+    a,b=line.strip().split()
+    result = kisetu(a)
+    result2 = iro(b)
+    print(a)
+    print(b)
     print(result)
-    print(line)
-    print(hana1)
-    print(hana2)
+    
 
-
-if args[1] == "初心者":    
-    print("まずは道具をそろえよう！")
-    print("プランター土があればとりあえずは大丈bu")
-    print("yoyuugaareば液肥も用意しよう！")
-    print("まずは安くて育てやすい花から始めてみよう！")
-    dt_now = datetime.datetime.now()
-    print("今は",dt_now.month,"月だね")
-    if 9 <= dt_now.month <= 11:
-        print("秋ならマリーゴールドとかはどうかな？")
-        print("100円台で買えるとこもあるんじゃないかな？")
-    elif 3 <= dt_now.month <= 6:
-        print("春ならデルフィニウムやマーガレットはどうだろう？")
-        print("個人的にはデルフィニウムがすごく好きかな！")
-        print("比較的高めかもだけど、500円くらいだろうし")
-    elif 7 <= dt_now.month <= 8:
-        print("夏なら朝顔が定番だよね")
-        print("日日草も簡単だし、秋くらいまで咲いてくれるよ！")
-        print("値段も100円台だろうしね")
-    elif 12 <= dt_now.month <= 2:
-        print("冬はちょっと咲く花は少な目かなぁ")
-        print("シクラメンやバンジーなんかがいいんじゃないかな？")
-        print("バンジーは結構安めだよ！")
-    print("どんな花もある程度の日照量は必要だね。")
-    print("もし、日当たりが良くない家なら多肉や苔という選択肢もアリだと思うよ！")
-    print("詳しくは苔テラリウムとかで検索してみよう！")

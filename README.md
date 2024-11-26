@@ -40,11 +40,11 @@ haru,春,spring あるいは aka,赤,redなど、ローマ字表記、日本語�
 
 
 
-[^1]: kiとは黄色の意味
+**kiとは黄色の意味**
 
-[^2]: 初心者はshosinsha,beginnerでも可能
+**初心者はshosinsha,beginnerでも可能**
 
-[^3]: 実行例は11月に実行
+**実行例は11月に実行**
 
 
 
@@ -95,7 +95,7 @@ haru,春,spring あるいは aka,赤,redなど、ローマ字表記、日本語�
 - このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
 
 - このパッケージのohana以外のコードは, 下記のスライド（CC-BY-SA 4.0 by ryuichi ueda）のものを, 本人の許可を得て自身の著作としたものです.
-  - ()
+  - (https://github.com/ryuichiueda/slides_marp/tree/master/robosys2024)
 
 © 2024 Daiki Ogawa
 

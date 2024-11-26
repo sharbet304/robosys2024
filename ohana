@@ -33,35 +33,35 @@ def kisetu(a):
     global hana3
     global hana4
 
-    if line in ("春", "haru", "spring"):
+    if a in ("春", "haru", "spring"):
         
         hana1 = HAK
         hana2 = HAO
         hana3 = HSI
         hana4 = HKI
         return hana1, hana2, hana3, hana4
-    elif line in ("夏","natu","summer"):
+    elif a in ("夏","natu","summer"):
         
         hana1 = NAK
         hana2 = NAO
         hana3 = NSI
         hana4 = NKI
         return hana1, hana2, hana3, hana4
-    elif line in ("秋","aki","fall","autumn"):
+    elif a in ("秋","aki","fall","autumn"):
         
         hana1 = AAK
         hana2 = AAO
         hana3 = ASI
         hana4 = AKI
         return hana1, hana2, hana3, hana4
-    elif line in ("冬","fuyu","winter"):
+    elif a in ("冬","fuyu","winter"):
         
         hana1 = FAK
         hana2 = FAO
         hana3 = FSI
         hana4 = FKI
         return hana1, hana2, hana3, hana4
-    elif line in ("初心者","shosinsha","beginner"):
+    elif a in ("初心者","shosinsha","beginner"):
         hana = "test"
         return "test"
     else:
@@ -74,9 +74,9 @@ def iro(b):
     global hana3
     global hana4
 
-    if line in ("赤", "aka", "red"):        
+    if a in ("赤", "aka", "red"):        
         return hana1
-    if line in ("青", "ao", "blue"):
+    if a in ("青", "ao", "blue"):
         return hana2
 
 for line in sys.stdin:

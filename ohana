@@ -4,17 +4,12 @@
 import sys
 import datetime
 
-count = 1
-
 def kisetu(line):
-    
-    global count
-    
+    list_haru_aka = ["ヘビイチゴ","アリウム","ルピナス","スイートピー","ムラサキカタバミ","デージー","ノアザミ","アネモネ","ナガミヒゲナシ"]
     line = line.strip()
 
     if line == "春":
-        hana = "neko"
-        count += 1
+        hana = list_haru_aka
     else:
         hana = "ha"
     return hana
@@ -24,7 +19,7 @@ for line in sys.stdin:
     inu = kisetu(line)
     print(inu)
     print(line)
-    print(count)
+    
 
 
 

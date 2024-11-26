@@ -37,9 +37,12 @@ haru,春,spring あるいは aka,赤,redなど、ローマ字表記、日本語�
 ./ohana fall ki
 ./ohana 初心者
 ```
-  - kiとは黄色の意味
-  - 初心者はshosinsha,beginnerでも可能
-  - 実行例は11月に実行
+
+   - kiとは黄色の意味
+
+   - 初心者はshosinsha,beginnerでも可能
+
+   - 実行例は11月に実行
 
 - 実行結果
 

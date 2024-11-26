@@ -4,17 +4,12 @@
 import sys
 import datetime
 
-
-hana2 = "test2"
-
 def kisetu(a):
-
 
     HAK = ["ヘビイチゴ","アリウム","ルピナス","スイートピー","ムラサキカタバミ","デージー","ノアザミ","アネモネ","ナガミヒゲナシ"]
     HAO = ["オオイヌノフグリ","クロッカス","ミヤコスワレ","ヤグルマギク","デルフィニウム","ネモフィラ","クレチマス","ムスカリ"]
     HSI = ["マーガレット","スイセン","ニリンソウ","セイヨウノコギリソウ","シロツメグサ","スノードロップ","イベリス",]
     HKI = ["タンポポ","キンセンカ","キジムシロ","セイヨウアブラナ","クサノオウ","フクジュソウ","チューリップ","コウゾリナ"]
-
     NAK = ["ランタナ","日々草","ハイビスカス","ヒルザキツキミソウ","ペチュニア","サルビア","ハナトラノオ","バーベナ","クサキョウチクトウ"]
     NAO = ["朝顔","キキョウ","ツユクサ"]
     NSI = ["日々草","アスチルベ","オニユリ","スイレン","ハス","マツバボタン","ポーチュラカ","オモダカ"]
@@ -73,19 +68,25 @@ def iro(b):
     if b in ("赤", "aka", "red"):
         aka = c[0]
         return aka
-    if b in ("青", "ao", "blue"):
+    elif b in ("青", "ao", "blue"):
         ao = c[1]
         return ao
-    if b in ("白", "siro", "white"):
+    elif b in ("白", "siro", "white"):
         siro = c[2]
         return siro
-    if b in ("黄", "ki", "yellow"):
+    elif b in ("黄", "ki", "yellow"):
         ki = c[3]
         return ki
-    
-for line in sys.stdin:
+    else:
+        return c
 
-    a,b=line.strip().split()
+for line in sys.stdin:
+    try:
+        a, b = line.split()
+    except ValueError:
+        a = line.strip()
+        b = "n"
+    
     result = kisetu(a)
     result2 = iro(b)
     print(a)

@@ -5,7 +5,7 @@
 
 # ohanaコマンドの概要
 
-![test](https://github.com/DaikiOgawa/robosys2024/actions/workflows/test.yml/badge.svg)
+![test](https://github.com/sharbet304/robosys2024/actions/workflows/test.yml/badge.svg)
 
 季節に合った花を教えてくれるプログラムです。 
 

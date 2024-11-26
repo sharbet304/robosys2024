@@ -68,17 +68,14 @@ def kisetu(a):
         return "形式が違うよ"
         
 def iro(b):
-
-    global hana1
-    global hana2
-    global hana3
-    global hana4
-
-    if a in ("赤", "aka", "red"):        
-        return hana1
-    if a in ("青", "ao", "blue"):
+    result3 = kisetu(a)
+    
+    if b in ("赤", "aka", "red"):
+        result4 = result3[0]
+        return result4
+    if b in ("青", "ao", "blue"):
         return hana2
-
+    
 for line in sys.stdin:
 
     a,b=line.strip().split()
@@ -86,6 +83,5 @@ for line in sys.stdin:
     result2 = iro(b)
     print(a)
     print(b)
-    print(result)
-    
+    print(result2) 
 

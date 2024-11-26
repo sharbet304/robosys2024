@@ -114,6 +114,6 @@ haru,春,spring あるいは aka,赤,redなど、ローマ字表記、日本語�
 
 [Pythonでは範囲条件を「a <= value < b」と書ける] (https://qiita.com/tag1216/items/de47009599cf592a222d)
 
-[[5分でマスター]初心者はまずREADMEを書け[テンプレート付き](https://qiita.com/Canard_engineer_c_cpp/items/81ce4e53881138dbf37f)]
+[\[5分でマスター\]初心者はまずREADMEを書け\[テンプレート付き\]](https://qiita.com/Canard_engineer_c_cpp/items/81ce4e53881138dbf37f)]
 
 

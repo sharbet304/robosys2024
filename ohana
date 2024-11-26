@@ -4,13 +4,16 @@
 import sys
 import datetime
 
+
+hana2 = "test2"
+
 def kisetu(line):
 
     line = line.strip()
 
     HAK = ["ヘビイチゴ","アリウム","ルピナス","スイートピー","ムラサキカタバミ","デージー","ノアザミ","アネモネ","ナガミヒゲナシ"]
     HAO = ["オオイヌノフグリ","クロッカス","ミヤコスワレ","ヤグルマギク","デルフィニウム","ネモフィラ","クレチマス","ムスカリ"]
-    HSI = ["マーガレット","スイセン","ニリンソウ","セイヨウノコギリソウ","シロツメグサ","スノードロップ","イベリス","",]
+    HSI = ["マーガレット","スイセン","ニリンソウ","セイヨウノコギリソウ","シロツメグサ","スノードロップ","イベリス",]
     HKI = ["タンポポ","キンセンカ","キジムシロ","セイヨウアブラナ","クサノオウ","フクジュソウ","チューリップ","コウゾリナ"]
 
     NAK = ["ランタナ","日々草","ハイビスカス","ヒルザキツキミソウ","ペチュニア","サルビア","ハナトラノオ","バーベナ","クサキョウチクトウ"]
@@ -26,22 +29,18 @@ def kisetu(line):
     FSI = ["バンジー","ビオラ","ハボタン"]
     FKI = ["バンジー","ビオラ"]
 
-
     if line in ("春", "haru", "spring"):
-        hana1 = HAK
-        hana2 = HAO
-        hana3 = HKI
-        hana4 = HSI
-        return hana1 , hana2, hana3, hana4
+        
+        return HAK, HAO, HKI, HSI
     elif line in ("夏","natu","summer"):
-        hana = NAK
-        return hana
+        
+        return NAK, NAO, NKI, NSI
     elif line in ("秋","aki","fall","autumn"):
-        hana = AAK
-        return hana
+        
+        return AAK, AAO, ASI, AKI
     elif line in ("冬","fuyu","winter"):
-        hana = FAK
-        return hana
+        
+        return FAK, FAO, FKI, FSI
     elif line in ("初心者","shosinsha","beginner"):
         hana = "test"
         return "test"
@@ -50,14 +49,16 @@ def kisetu(line):
         
 def iro(line):
     line = line.strip()
-    
-    if line in ("春", "haru", "spring")
+    if line in ("赤", "aka", "red"):
+        hana2 = "ringo"
+        return hana1, hana2
 
 for line in sys.stdin:
-
-    inu = kisetu(line)
-    print(inu)
+    result = kisetu(line.strip())
+    print(result)
     print(line)
+    print(hana1)
+    print(hana2)
 
 
 if args[1] == "初心者":    

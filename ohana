@@ -4,8 +4,45 @@
 import sys
 import datetime
 
+count = 1
+
+def kisetu(line):
+    
+    global count
+    
+    line = line.strip()
+
+    if line == "春":
+        hana = "neko"
+        count += 1
+    else:
+        hana = "ha"
+    return hana
+
 for line in sys.stdin:
+
+    inu = kisetu(line)
+    print(inu)
     print(line)
+    print(count)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 list_haru_aka = ["ヘビイチゴ","アリウム","ルピナス","スイートピー","ムラサキカタバミ","デージー","ノアザミ","アネモネ","ナガミヒゲナシ"]
 list_haru_ao = ["オオイヌノフグリ","クロッカス","ミヤコスワレ","ヤグルマギク","デルフィニウム","ネモフィラ","クレチマス","ムスカリ"]
 list_haru_siro = ["マーガレット","スイセン","ニリンソウ","セイヨウノコギリソウ","シロツメグサ","スノードロップ","イベリス","",]

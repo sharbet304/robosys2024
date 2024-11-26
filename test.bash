@@ -9,14 +9,24 @@ ng(){
 res=0
 
 #なんもないとき
-
 out=$(echo -n | ./ohana)
 [ "$out" = "なんか入れて" ] || ng "$LINENO"
 
+#春とか
+out=$(./ohana 春 赤)
+[ "$out" != *"ヘビイチゴ"* ] || ng "$LINENO"
 
 
 
 
+#初心者のやつ
+out=$(./ohana 初心者)
+if [[ $out != *"まずは道具をそろえよう！"* ]]; then
+    ng "$LINENO"
+fi
+
+[ "$res" = 0 ] && echo OK
+exit "$res"
 
 
 

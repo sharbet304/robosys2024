@@ -68,13 +68,20 @@ def kisetu(a):
         return "形式が違うよ"
         
 def iro(b):
-    result3 = kisetu(a)
+    c = kisetu(a)
     
     if b in ("赤", "aka", "red"):
-        result4 = result3[0]
-        return result4
+        aka = c[0]
+        return aka
     if b in ("青", "ao", "blue"):
-        return hana2
+        ao = c[1]
+        return ao
+    if b in ("白", "siro", "white"):
+        siro = c[2]
+        return siro
+    if b in ("黄", "ki", "yellow"):
+        ki = c[3]
+        return ki
     
 for line in sys.stdin:
 

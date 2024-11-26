@@ -5,6 +5,8 @@
 
 # ohanaコマンドの概要
 
+![test](https://github.com/DaikiOgawa/robosys2024/actions/workflows/test.yml/badge.svg)
+
 季節に合った花を教えてくれるプログラムです。 
 
 コマンドライン引数に季節と色を入力することで花の名前を教えてくれます。
@@ -95,28 +97,28 @@ haru,春,spring あるいは aka,赤,redなど、ローマ字表記、日本語�
 
 - 書籍
 
- - 「改訂版　散歩で見かける草花・雑草図鑑」著:鈴木傭夫　高橋冬 2022/2/17第10刷	発行
+  - 「改訂版　散歩で見かける草花・雑草図鑑」著:鈴木傭夫　高橋冬 2022/2/17第10刷	発行
 
- - 「新しいLINUXの教科書」著:三宅英明　大角祐介 2024/4/29第2版発行
+  - 「新しいLINUXの教科書」著:三宅英明　大角祐介 2024/4/29第2版発行
 
- - 「いちばんやさしいPython入門教室」著:大澤文孝 2019/8/10初版第６刷発行
+  - 「いちばんやさしいPython入門教室」著:大澤文孝 2019/8/10初版第６刷発行
 
 - ウェブサイト
 
- - [基本的な書き方とフォーマットの構文]( https://docs.github.com/ja/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#quoting-code )
+  - [基本的な書き方とフォーマットの構文]( https://docs.github.com/ja/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#quoting-code )
 
- - [コードブロックの作成と強調表示](https://docs.github.com/ja/get-started/writing-on-github/working-with-advanced-formatting/creating-and-highlighting-code-blocks)
+  - [コードブロックの作成と強調表示](https://docs.github.com/ja/get-started/writing-on-github/working-with-advanced-formatting/creating-and-highlighting-code-blocks)
 
- - [Pythonの配列の基礎をご紹介！](https://techplay.jp/column/462)
+  - [Pythonの配列の基礎をご紹介！](https://techplay.jp/column/462)
 
- - [Pythonでコマンドライン引数を受け取る](https://qiita.com/taashi/items/07bf75201a074e208ae5)
+  - [Pythonでコマンドライン引数を受け取る](https://qiita.com/taashi/items/07bf75201a074e208ae5)
 
- - [Python 文字リスト（配列）の操作](https://qiita.com/HajimeKawahara/items/02c288667f0a893e8761)
+  - [Python 文字リスト（配列）の操作](https://qiita.com/HajimeKawahara/items/02c288667f0a893e8761)
 
- - [Pythonで現在時刻・日付・日時を取得](https://note.nkmk.me/python-datetime-now-today/)
+  - [Pythonで現在時刻・日付・日時を取得](https://note.nkmk.me/python-datetime-now-today/)
 
- - [Pythonでは範囲条件を「a \<= value \< b」と書ける](https://qiita.com/tag1216/items/de47009599cf592a222d)
+  - [Pythonでは範囲条件を「a \<= value \< b」と書ける](https://qiita.com/tag1216/items/de47009599cf592a222d)
 
- - [\[5分でマスター\]初心者はまずREADMEを書け\[テンプレート付き\]](https://qiita.com/Canard_engineer_c_cpp/items/81ce4e53881138dbf37f)]
+  - [\[5分でマスター\]初心者はまずREADMEを書け\[テンプレート付き\]](https://qiita.com/Canard_engineer_c_cpp/items/81ce4e53881138dbf37f)]
 
 

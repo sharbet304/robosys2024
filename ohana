@@ -28,19 +28,40 @@ def kisetu(line):
     FAO = ["バンジー","ビオラ","シクラメン"]
     FSI = ["バンジー","ビオラ","ハボタン"]
     FKI = ["バンジー","ビオラ"]
+    
+    global hana1
+    global hana2
+    global hana3
+    global hana4
 
     if line in ("春", "haru", "spring"):
         
-        return HAK, HAO, HKI, HSI
+        hana1 = HAK
+        hana2 = HAO
+        hana3 = HSI
+        hana4 = HKI
+        return hana1, hana2, hana3, hana4
     elif line in ("夏","natu","summer"):
         
-        return NAK, NAO, NKI, NSI
+        hana1 = NAK
+        hana2 = NAO
+        hana3 = NSI
+        hana4 = NKI
+        return hana1, hana2, hana3, hana4
     elif line in ("秋","aki","fall","autumn"):
         
-        return AAK, AAO, ASI, AKI
+        hana1 = AAK
+        hana2 = AAO
+        hana3 = ASI
+        hana4 = AKI
+        return hana1, hana2, hana3, hana4
     elif line in ("冬","fuyu","winter"):
         
-        return FAK, FAO, FKI, FSI
+        hana1 = FAK
+        hana2 = FAO
+        hana3 = FSI
+        hana4 = FKI
+        return hana1, hana2, hana3, hana4
     elif line in ("初心者","shosinsha","beginner"):
         hana = "test"
         return "test"
@@ -49,9 +70,16 @@ def kisetu(line):
         
 def iro(line):
     line = line.strip()
+
+
+
+
+
+
+
     if line in ("赤", "aka", "red"):
-        hana2 = "ringo"
-        return hana1, hana2
+        result = hana1
+        return 
 
 for line in sys.stdin:
     result = kisetu(line.strip())

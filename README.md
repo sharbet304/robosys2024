@@ -57,31 +57,19 @@ echo 初心者 | ./ohana　　　#shosinsha,beginnerでも可能
 以下の例では、各入力方法での検索と、初心者用の検索を実行しています
 
 ```
-echo haru aka | ./ohana
-echo 夏 青 | ./ohana
-echo fall yellow | ./ohana
-echo 初心者 | ./ohana
-```
-
-    - kiとは黄色の意味
- 
-    - 実行例は11月に実行
-
- - 実行結果
-
-```
+$echo haru aka | ./ohana
 ['ヘビイチゴ', 'アリウム', 'ルピナス', 'スイートピー', 'ムラサキカタバミ', 'デージー', 'ノアザミ', 'アネモネ', 'ナガミヒゲナシ']
 ```
-
 ```
+$echo 夏 青 | ./ohana
 ['朝顔', 'キキョウ', 'ツユクサ']
 ```
-
 ```
+$echo fall yellow | ./ohana
 ['マリーゴールド', 'ヒオウギ', 'カラスノゴマ']
 ```
-
 ```
+$echo 初心者 | ./ohana
 まずは道具をそろえよう！
 ~(中略)~
 今は 11 月だね
@@ -89,6 +77,10 @@ echo 初心者 | ./ohana
 ~(中略)~
 Have a nice day!
 ```
+ 
+ - kiとは黄色の意味
+
+ - 実行例は11月に行ったものです
 
 # 環境
 
@@ -107,7 +99,7 @@ Have a nice day!
 - このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
 
 - このパッケージのohana,test.bash以外のコードは, 下記のスライド（CC-BY-SA 4.0 by ryuichi ueda）のものを, 本人の許可を得て自身の著作としたものです.
-  - (https://github.com/ryuichiueda/slides_marp/tree/master/robosys2024)
+  - https://github.com/ryuichiueda/slides_marp/tree/master/robosys2024
 
 © 2024 Daiki Ogawa
 
@@ -151,30 +143,6 @@ Have a nice day!
   - [【初心者向け】【入門】GitHub Actionsとは？書き方、デバッグ設定、runs-onやcheckoutなどの仕組みや構造も含めて徹底解説](https://qiita.com/shun198/items/14cdba2d8e58ab96cf95)
 
   - [GitHub Actions Workflow ubuntu-latest が 22.04 に](https://qiita.com/Satachito/items/ce3c22081fb0b4aded03)
-
-# 備考
-
-## 修正点
-
-  - 入力方法をコマンドライン引数を使用したものから標準入力に変更
-
-  - 関数を利用したコードの簡略化
-
-  - 上記に伴うtest.bashの修正
- 
-  - READMEの変更
-
-    - 使い方、概要の修正
-
-    - リポジトリのクローン手順の項目の文言の追加・変更
-
-    - テスト環境の修正
-
-    - 参照のウェブサイトの追加
-
-    - その他細々とした文言等の変更 
-
-    - おまけの追加
 
 # おまけ
 

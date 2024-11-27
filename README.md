@@ -148,6 +148,10 @@ Have a nice day!
 
   - [とほほのPython入門 - 関数](https://www.tohoho-web.com/python/function.html)
 
+  - [【初心者向け】【入門】GitHub Actionsとは？書き方、デバッグ設定、runs-onやcheckoutなどの仕組みや構造も含めて徹底解説](https://qiita.com/shun198/items/14cdba2d8e58ab96cf95)
+
+  - [GitHub Actions Workflow ubuntu-latest が 22.04 に](https://qiita.com/Satachito/items/ce3c22081fb0b4aded03)
+
 # 備考
 
 ## 修正点

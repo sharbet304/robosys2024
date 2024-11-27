@@ -178,9 +178,9 @@ Have a nice day!
 
  - おすすめの書籍とウェブサイト
 
-  - 「はじめての苔テラリウム」著:園田 純寛2019/3/22発行
+   - 「はじめての苔テラリウム」著:園田 純寛2019/3/22発行
 
-  - [苔テラリウム専門ショップ道草](https://www.kokenomori.com/?srsltid=AfmBOoqkH1xqP4RdZciIIo9uxqOom7iDJ7LwZf6AAGc_12GmEo_Nc-Qg)
+   - [苔テラリウム専門ショップ道草](https://www.kokenomori.com/?srsltid=AfmBOoqkH1xqP4RdZciIIo9uxqOom7iDJ7LwZf6AAGc_12GmEo_Nc-Qg)
 
 
 

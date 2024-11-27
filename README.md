@@ -9,7 +9,7 @@
 
 季節に合った花を教えてくれるプログラムです。 
 
-コマンドライン引数に季節と色を入力することで花の名前を教えてくれます。
+標準入力に季節と色を入力することでその条件に合った花の名前を教えてくれます。
 
 初心者と入力すると、用意すべきものを表示してくれて、さらに季節を自動で読み取って、おすすめの育てやすい花を紹介してくれます！
 
@@ -21,6 +21,8 @@
 git clone https://github.com/sharbet304/robosys2024
 ```
 
+その後は下記のコマンドでリディレクトリを移動してください
+
 ```
 cd robosys2024
 ```
@@ -29,15 +31,19 @@ cd robosys2024
 
 haru,春,spring あるいは aka,赤,redなど、ローマ字表記、日本語表記、英語表記の三つの入力文体に対応しています。
 
-./ohana 季節　色
+```
+ echo 季節 色 | ./ohana
+```
 
-の順番に入力してください。
+のように、季節、色の順番で入力してください。
 
 季節のみの入力にも対応しています。
 
 また、初心者の方は、
 
-./ohana 初心者(**shosinsha,beginnerでも可能**)
+```
+echo 初心者 | ./ohana　　　#shosinsha,beginnerでも可能
+```
 
 と入力してください。
 
@@ -45,10 +51,10 @@ haru,春,spring あるいは aka,赤,redなど、ローマ字表記、日本語�
 - 実行例
 
 ```
-./ohana haru red
-./ohana 夏 青
-./ohana fall ki
-./ohana 初心者
+echo haru aka | ./ohana
+echo 夏 青 | ./ohana
+echo fall yellow | ./ohana
+echo 初心者 | ./ohana
 ```
 
 
@@ -84,6 +90,7 @@ haru,春,spring あるいは aka,赤,redなど、ローマ字表記、日本語�
 どんな花もある程度の日照量は必要だね。
 もし、日当たりが良くない家なら多肉や苔という選択肢もアリだと思うよ！
 詳しくは苔テラリウムとかで検索してみよう！
+Have a nice day!
 ```
 
 
@@ -139,4 +146,11 @@ haru,春,spring あるいは aka,赤,redなど、ローマ字表記、日本語�
 
   - [\[5分でマスター\]初心者はまずREADMEを書け\[テンプレート付き\]](https://qiita.com/Canard_engineer_c_cpp/items/81ce4e53881138dbf37f)]
 
+ - [【Python】リスト(list)から要素を取り出す3つの方法！基本的な使い方からスライスまで](https://trends.codecamp.jp/blogs/media/column315)
+
+ - [Pythonで複数の値を入力する方法](https://qiita.com/863/items/b970d2f376c1e16c921b)
+
+ - [Pythonでリスト（配列）の要素を削除するclear, pop, remove, del](https://note.nkmk.me/python-list-clear-pop-remove-del/)
+
+ - [とほほのPython入門 - 関数](https://www.tohoho-web.com/python/function.html)
 

@@ -63,9 +63,9 @@ echo fall yellow | ./ohana
 echo 初心者 | ./ohana
 ```
 
-    - kiとは黄色の意味
+   - kiとは黄色の意味
 
-    - 実行例は11月に実行
+   - 実行例は11月に実行
 
 - 実行結果
 

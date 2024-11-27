@@ -5,7 +5,7 @@
 
 # ohanaコマンドの概要
 
-![test](https://github.com/sharbet304/robosys2024/actions/workflows/test.yml/badge.svg)(https://github.com/sharbet304/robosys2024/actions/workflows/test.yml)
+[![test](https://github.com/sharbet304/robosys2024/actions/workflows/test.yml/badge.svg)](https://github.com/sharbet304/robosys2024/actions/workflows/test.yml)
 
 季節に合った花を教えてくれるプログラムです
 

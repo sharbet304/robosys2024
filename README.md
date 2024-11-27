@@ -146,11 +146,11 @@ Have a nice day!
 
   - [\[5分でマスター\]初心者はまずREADMEを書け\[テンプレート付き\]](https://qiita.com/Canard_engineer_c_cpp/items/81ce4e53881138dbf37f)]
 
- - [【Python】リスト(list)から要素を取り出す3つの方法！基本的な使い方からスライスまで](https://trends.codecamp.jp/blogs/media/column315)
+  - [【Python】リスト(list)から要素を取り出す3つの方法！基本的な使い方からスライスまで](https://trends.codecamp.jp/blogs/media/column315)
 
- - [Pythonで複数の値を入力する方法](https://qiita.com/863/items/b970d2f376c1e16c921b)
+  - [Pythonで複数の値を入力する方法](https://qiita.com/863/items/b970d2f376c1e16c921b)
 
- - [Pythonでリスト（配列）の要素を削除するclear, pop, remove, del](https://note.nkmk.me/python-list-clear-pop-remove-del/)
+  - [Pythonでリスト（配列）の要素を削除するclear, pop, remove, del](https://note.nkmk.me/python-list-clear-pop-remove-del/)
 
- - [とほほのPython入門 - 関数](https://www.tohoho-web.com/python/function.html)
+  - [とほほのPython入門 - 関数](https://www.tohoho-web.com/python/function.html)
 

@@ -8,94 +8,72 @@ ng(){
 }
 res=0
 
-#なんもないとき
-out=$(echo -n | ./ohana)
-[ "$out" = "なんか入れて" ] || ng "$LINENO"
-
 #春red
-out=$(./ohana 春 赤)
+out=$( echo haru red | ./ohana)
 [ "$out" != *"ヘビイチゴ"* ] || ng "$LINENO"
 
 #春blue
-out=$(./ohana 春 blue)
+out=$( echo haru ao | ./ohana)
 [ "$out" != *"デルフィニウム"* ] || ng "$LINENO"
 
 #haruyellow
-out=$(./ohana 春 yellow)
+out=$( echo haru ki | ./ohana)
 [ "$out" != *"タンポポ"* ] || ng "$LINENO"
 
 #春white
-out=$(./ohana 春 white)
+out=$( echo haru siro | ./ohana)
 [ "$out" != *"マーガレット"* ] || ng "$LINENO"
 
 #natu 
-out=$(./ohana natu aka)
+out=$( echo natu aka | ./ohana)
 [ "$out" != *"ランタナ"* ] || ng "$LINENO"
 
 #natu
-out=$(./ohana natu ao)
+out=$( echo natu ao | ./ohana)
 [ "$out" != *"朝顔"* ] || ng "$LINENO"
 
 #natu
-out=$(./ohana natu siro)
+out=$( echo natu siro | ./ohana)
 [ "$out" != *"日々草"* ] || ng "$LINENO"
 
 #natu
-out=$(./ohana natu ki)
+out=$( echo natu ki | ./ohana)
 [ "$out" != *"ひまわり"* ] || ng "$LINENO"
 
 #aki
-out=$(./ohana aki red)
+out=$( echo aki aka | ./ohana)
 [ "$out" != *"ダリア"* ] || ng "$LINENO"
 
 #aki
-out=$(./ohana aki blue)
+out=$( echo aki ao | ./ohana)
 [ "$out" != *"コルチカム"* ] || ng "$LINENO"
 
 #aki
-out=$(./ohana fall white)
+out=$( echo aki siro | ./ohana)
 [ "$out" != *"コダチダリア"* ] || ng "$LINENO"
 
 #aki
-out=$(./ohana autumn yellow)
+out=$( echo aki ki | ./ohana)
 [ "$out" != *"マリーゴールド"* ] || ng "$LINENO"
 
 #fuyu
-out=$(./ohana winter aka)
+out=$( echo fuyu aka | ./ohana)
 [ "$out" != *"シクラメン"* ] || ng "$LINENO"
 
 #fuyu
-out=$(./ohana 冬 ao)
+out=$( echo fuyu ao | ./ohana)
 [ "$out" != *"バンジー"* ] || ng "$LINENO"
 
 #fuyu
-out=$(./ohana fuyu siro)
+out=$( echo fuyu siro | ./ohana)
 [ "$out" != *"バンジー"* ] || ng "$LINENO"
 
 #fuyu
-out=$(./ohana fuyu ki)
+out=$( echo fuyu ki | ./ohana)
 [ "$out" != *"バンジー"* ] || ng "$LINENO"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 #初心者のやつ
-out=$(./ohana 初心者)
+out=$( echo shosinsha | ./ohana)
 if [[ $out != *"まずは道具をそろえよう！"* ]]; then
     ng "$LINENO"
 fi

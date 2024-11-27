@@ -154,3 +154,34 @@ Have a nice day!
 
   - [とほほのPython入門 - 関数](https://www.tohoho-web.com/python/function.html)
 
+# 備考
+
+ - 修正点
+
+  - 入力方法をコマンドライン引数を使用したものから標準入力に変更
+
+　- 関数を利用したコードの簡略化
+
+  - 上記に伴うtest.bashの修正
+ 
+  - READMEの変更
+
+    - 使い方、概要の修正
+
+    - リポジトリのクローン手順の項目の文言の追加
+
+    - 参照のウェブサイトの追加
+
+    - おまけの追加
+
+# おまけ
+
+ - おすすめの書籍とウェブサイト
+
+  - 「はじめての苔テラリウム」著:園田 純寛2019/3/22発行
+
+  - [苔テラリウム専門ショップ道草](https://www.kokenomori.com/?srsltid=AfmBOoqkH1xqP4RdZciIIo9uxqOom7iDJ7LwZf6AAGc_12GmEo_Nc-Qg)
+
+
+
+

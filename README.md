@@ -100,7 +100,7 @@ Have a nice day!
 
 ## テスト環境
 
-- Ubuntu-latest 
+- Ubuntu-latest\ubuntu-22.04
 
 # ライセンス
 

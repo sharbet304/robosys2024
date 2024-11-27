@@ -82,16 +82,3 @@ fi
 exit "$res"
 
 
-
-
-
-
-
-
-
-
-
-
-
-[ "${res}" = 0 ] && echo OK
-exit $res

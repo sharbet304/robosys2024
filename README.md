@@ -5,7 +5,7 @@
 
 # ohanaコマンドの概要
 
-![test](https://github.com/sharbet304/robosys2024/actions/workflows/test.yml/badge.svg)
+![test](https://github.com/sharbet304/robosys2024/actions/workflows/test.yml/badge.svg)(https://github.com/sharbet304/robosys2024/actions/workflows/test.yml)
 
 季節に合った花を教えてくれるプログラムです。 
 
@@ -21,7 +21,7 @@
 git clone https://github.com/sharbet304/robosys2024
 ```
 
-その後は下記のコマンドでリディレクトリを移動してください
+その後は下記のコマンドでディレクトリに移動してください
 
 ```
 cd robosys2024
@@ -50,6 +50,8 @@ echo 初心者 | ./ohana　　　#shosinsha,beginnerでも可能
 
 - 実行例
 
+以下の例では、各入力方法での検索と、初心者用の検索を実行しています。
+
 ```
 echo haru aka | ./ohana
 echo 夏 青 | ./ohana
@@ -57,13 +59,9 @@ echo fall yellow | ./ohana
 echo 初心者 | ./ohana
 ```
 
+   - kiとは黄色の意味
 
-
-**kiとは黄色の意味**
-
-**実行例は11月に実行**
-
-
+   - 実行例は11月に実行
 
 - 実行結果
 
@@ -81,32 +79,24 @@ echo 初心者 | ./ohana
 
 ```
 まずは道具をそろえよう！
-プランターと土があればとりあえずは大丈夫！
-余裕があれば液肥も用意しよう！
-まずは安くて育てやすい花から始めてみよう！
+~(中略)~
 今は 11 月だね
 秋ならマリーゴールドとかはどうかな？
-100円台で買えるとこもあるんじゃないかな？
-どんな花もある程度の日照量は必要だね。
-もし、日当たりが良くない家なら多肉や苔という選択肢もアリだと思うよ！
-詳しくは苔テラリウムとかで検索してみよう！
+~(中略)~
 Have a nice day!
 ```
 
-
-
-
 # 環境
 
-### 必要なソフトウェア
+## 必要なソフトウェア
 
 - Python
 
   - テスト済み:3.7~3.10
 
-### テスト環境
+## テスト環境
 
-- Ubuntu22.04.5LTS 
+- Ubuntu-latest 
 
 # ライセンス
 
@@ -176,9 +166,11 @@ Have a nice day!
 
 # おまけ
 
- - おすすめの書籍とウェブサイト
+ - おすすめの書籍
 
    - 「はじめての苔テラリウム」著:園田 純寛2019/3/22発行
+
+ - ウェブサイト
 
    - [苔テラリウム専門ショップ道草](https://www.kokenomori.com/?srsltid=AfmBOoqkH1xqP4RdZciIIo9uxqOom7iDJ7LwZf6AAGc_12GmEo_Nc-Qg)
 
